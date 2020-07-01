@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  web:
+    image: demo-springboot:latest
+    ports:
+      - 8083:8083
